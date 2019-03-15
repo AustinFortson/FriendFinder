@@ -7,7 +7,7 @@ var friends = require("./data/friends")
 // Sets up the Express App
 // =============================================================
 var app     = express();
-var PORT    = 3002;
+var PORT    = process.env.PORT || 3002;
 
 // Sets up the Express app to handle data parsing
 // =============================================================
